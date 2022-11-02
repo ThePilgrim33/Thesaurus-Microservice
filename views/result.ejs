@@ -1,0 +1,12 @@
+<%- include ('../partials/header'); %>
+
+<div class="container">
+    <h2>Your synonyms!</h2>
+    <ul>
+        <% data.forEach(function(synonym) { %>
+            <li><%= synonym %></li>
+            <% }); %>
+    </ul>
+</div>
+
+<%- include ('../partials/footer'); %>
